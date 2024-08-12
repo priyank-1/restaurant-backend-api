@@ -10,5 +10,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run","up"]
+CMD ["npm", "run","build"]
 
