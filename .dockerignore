@@ -1,0 +1,6 @@
+node_modules
+build
+variables.env
+/api/.env
+/data
+/api/dist

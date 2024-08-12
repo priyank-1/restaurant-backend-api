@@ -1,0 +1,6 @@
+node_modules
+variables.env
+/api/.env
+/api/dist
+/api/node_modules
+data

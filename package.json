@@ -1,0 +1,23 @@
+{
+  "name": "node_sparks_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "mkdirp data && docker-compose up -d",
+    "postup": "npm run dev",
+    "stop": "docker-compose stop",
+    "down": "docker-compose down",
+    "dev": "npm run dev --prefix api",
+    "build"  :"docker-compose build backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mkdirp": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
